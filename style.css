@@ -1,0 +1,194 @@
+body {
+  background-image: url('pic.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Use min-height instead of fixed height */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-bar li {
+  margin: 0 1rem;
+  color: white;
+}
+
+.content {
+  flex: 1; /* Make content take up remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.paragraph {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.paragraph2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.paragraph5 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.lets-go-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.icons {
+  margin-bottom: 1rem;
+}
+
+.icons a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) { /* Responsive for smaller screens */
+  .menu-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-bar ul {
+    flex-direction: column;
+  }
+
+  .menu-bar li {
+    margin: 0.5rem 0;
+  }
+}
+
+@font-face {
+
+    src:url(fonts/OneDirection.ttf)format("truetype");
+
+    font-family: nos;
+}
+.paragraph{
+    text-align: center;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: white;
+}
+.paragraph2{
+    text-align:center;
+    font-size: 100px;
+    font-family: nos;
+    color: white;
+}
+.menu-bar
+{
+text-align:center;
+background-color: #000000;
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   color:floralwhite
+}
+.menu-bar ul li
+{
+    font-family: Impact;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.menu-bar ul li:hover
+{
+
+    background: floralwhite;
+    color: #000000;
+    border-radius:3px;
+}
+.paragraph5{
+    font-size: 20px;
+    font-family:Courier;
+    margin: 30px;
+    color: white;
+}
+
+
+
+.lets-go-btn{
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px; 
+}
+.lets-go-btn:hover{
+    background: rgb(54, 1, 1);
+}
+
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin-top:0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    
+}
+
+.icons a { margin-right:75px; }
+
+.icons :hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    background-color:black;
+    margin-top:28%;
+}
+.p1{
+    color: floralwhite;
+    font-size: larger;
+    padding-bottom: 10px;
+    
+}
